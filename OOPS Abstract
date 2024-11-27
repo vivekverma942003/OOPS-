@@ -1,0 +1,35 @@
+
+This is the example of the abstract class in java oops
+
+abstract class vehicle{
+    String brand;
+    public vehicle(String brand){
+        this.brand=brand;
+    }
+    public void first(){
+        System.out.print("Vehicle has called byb the child");
+    }
+    abstract void start();
+    abstract int price();
+}
+class cycle extends vehicle{
+    int price;
+    public cycle(String brand, int price){
+        super(brand);
+        this.price=price;
+    }
+    public void start(){
+        System.out.print("Starting the cycel");
+    }
+    public int price(){
+        return price;
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        cycle one= new cycle("Atlas",400);
+        System.out.println(one.price);
+        one.start();
+    }
+}
