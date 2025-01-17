@@ -1,28 +1,24 @@
-Abstraction : 
+Abstraction : Hiding the complexity of the class and showing only necessary information to the user. 
+In other words we can say that showing only what it does rather how it does is known as abstraction in oops.
+
+Point 1: It is necessary to create a subclass of the abstract class because without the subclass we can not create an 
+        object of the abstract class directly .
+
+Point 2: An abstract class may or may not contains abstract methods. 
+Point 3 : An abstract class may have variable number and methods normally like other class.
+Point 4 : It can be used as a template for the methods that can be used by other classes depending upon their behaviour
 
 
+Note :- We can not create the instance of the abstract class because it is incomplete and its methods need implementation 
+which is done in its subclass.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Abstract Methods : An abstract methods is declared with abstract keywords without any body or without any implementation.
+                Its body or code is absent and it is implemented in the subclass which is not abstract.
 
 
 
 This is the example of the abstract class in java oops
-
 abstract class vehicle{
     String brand;
     public vehicle(String brand){
@@ -53,5 +49,59 @@ class Main {
         cycle one= new cycle("Atlas",400);
         System.out.println(one.price);
         one.start();
+    }
+}
+
+
+
+Example 2 
+abstract class Vehicle{
+    String name;
+    int price;
+    public Vehicle(String name, int price){
+        this.name=name;
+        this.price=price;
+    }
+    public void parent(){
+        System.out.print("This is the parent item");
+    }
+    abstract void name();
+    abstract void price();
+    
+}
+class Car extends Vehicle{
+    public Car(String name,int value){
+        super(name,value);
+    }
+    @Override
+    public void name(){
+        System.out.print("This is car " +name);
+    }
+    public void price(){
+        System.out.print("This is car price " + price);
+    }
+}
+
+class Truck extends Vehicle{
+    public Truck(String name, int price){
+        super(name,price);
+    }
+    @Override
+     public void name(){
+        System.out.print("This is Truck " +name);
+    }
+    public void price(){
+        System.out.print("This is car Truck " + price);
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Car suzuki= new Car("Suzuki", 12000);
+        suzuki.parent();
+        suzuki.name();
+        Truck truck= new Truck("Fatfatiya ",17000);
+        truck.name();
+        
     }
 }
