@@ -1,1 +1,23 @@
-
+It allows to access the variable within the same classs only throught the getter and setter methods.
+class account{
+    private String name;
+    private double balance;
+    public account(String name, double balance){
+        this.name=name;
+        this.balance=balance;
+    }
+    public void getName(){
+        System.out.print(name);
+    }
+    
+    public void getBalance(){
+        System.out.print(balance);
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        account temp= new account("vivek",7.63);
+        temp.getName();
+        System.out.println(temp.name);
+    }
+}
