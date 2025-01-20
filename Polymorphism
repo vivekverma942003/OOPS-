@@ -1,0 +1,47 @@
+Polymorphism :- When the same class can be treated as different forms then it is known as polymorphism.
+ It allows a single entity (e.g., method, object) to take multiple forms
+There are two types of Polymorphism in java Compile Time polymorphism and runtime polymorphism. 
+
+Method overloading polymorphism: -When there are multiple functions with the same name but different return types or parameters then it is called compile time polymorphism.
+Different Parameters:
+Overloaded methods must differ in one of the following:
+Number of parameters.
+Types of parameters.
+Order of parameters.
+
+
+
+
+class Car{
+    int price;
+    String name;
+    public Car(int price, String name){
+        this.name=name;
+        this.price=price;
+    }
+    
+    public void print(){
+        System.out.print("This is print");
+    }
+    public int  print(){
+        System.out.print("This is price ");
+        return 100000;
+        
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        Car temp= new Car(70000,"Suzuki");
+        temp.print();
+        temp.print(90);
+    }
+}
+
+
+Method overloading does not depend upon the return type..
+
+Method Overriding can be defined as a function which can be used to define the functions that are already defined within the parent class.
+with the same , name return type and parameter 
+
