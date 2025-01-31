@@ -1,0 +1,28 @@
+Introduction
+1 :- Why do we need OOP?
+2 :- What are the important pillars in OOP?
+3 :- What is a Class and Object ?
+4 :- Abstraction VS Encapsulation ?
+5 :- Explain Inheritance ?
+6 :- Explain Virtual Keyword ?
+7 :- What is Overriding ?
+8 :- Explain Overloading ?
+9 :- Overloading VS Overriding ?
+10 :- What is Polymorphism ?
+11 :- Can Polymorphism work without Inheritance ?
+12 :- Explain Static VS Dynamic Polymorphism ?
+13 :- Explain Operator Overloading ?
+14 :- How to do Custom Operator Overloading ?
+15 :- Why do we need Abstract Classes ?
+16 :- Are Abstract methods Virtual ?
+17 :- Can we create an instance of Abstract Classes ?
+18 :- Is it compulsory to implement Abstract Methods ?
+19:- Why simple base class cannot replace Abstract Classes?
+20 :- Explain Interface and Why do we need it ?
+21 :- Can we write logic in Interface ?
+22 :- Can we define methods as private in Interface ?
+23 :- To change Interface what's the best practice ?
+24 :- Explain Multiple Inheritance in Interfaces ?
+25 :- Explain Interface Segregation Principle ?
+26 :- Can we create instance of Interface ?
+27 :- Can we do multiple inheritance of Interface ?
