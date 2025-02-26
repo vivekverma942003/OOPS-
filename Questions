@@ -1,7 +1,10 @@
 Introduction
 1 :- Why do we need OOP?
 2 :- What are the important pillars in OOP?
+     Inheritance, Abstraction, Polymorphis and Encapsulation 
 3 :- What is a Class and Object ?
+
+    
 4 :- Abstraction VS Encapsulation ?
 5 :- Explain Inheritance ?
 6 :- Explain Virtual Keyword ?
