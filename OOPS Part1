@@ -7,6 +7,7 @@ This can be used as a template or blueprint .
 Example : - Car is an classs with attributes color model name power and methods are start engine close engine shutdown
 
 
+
 Objects : - An object is an instance of the class  Car is a class but the specific name and model are given through the class
 
 Encapsulation in java is hiding the complex implementation and showing only necessary implementation to the user
