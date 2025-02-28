@@ -81,12 +81,56 @@ When an class creates objects of other classes to inherit the property without u
 composition and it is not tightly coupled relationship.
 It is a type of has a relationship which comes under the association. 
 
-Associtiation has two types Composition and Aggregation 
+Association has two types Composition and Aggregation 
 Composition shares strong bonding in which both are totally dependent on the others 
 Aggregation shares weak bonding in which both are not totally dependent on each others
 
 
 ****************************************************************************************************************************
+
+Copy Constructor:- It is used to create a new object using another object and creates a separate variable.
+Assignment Constructor:- It is used to create a new object using another object and allocates the same memory to it.
+
+****************************************************************************************************************************
+Constructor Chaining:-
+It is used when one constructor calls another constructor to create objects using this or super keyword.
+
+****************************************************************************************************************************
+Polymorphism:- when same methods behave differently then it is known as polymorhphism.
+
+Method overloading or Compile time polymorphism:- no of arguements, no of parameters and order of parameters 
+the different return type can not be sufficient alone to achieve the method overloading.
+
+Method overriding or runtime polymorphism:- the same goes for it but the classes must be different for it.
+We can also achievep polymorphism using the interface but its only condition is that its body should not be implemented in 
+it.
+
+****************************************************************************************************************************
+
+Name the operators that cannot be overload.
+Scope Resolution Operator (::)
+Ternary Operator (? :)
+Member Access or Dot Operator (.)
+Pointer to Member Operator (.*)
+sizeof operator
+
+****************************************************************************************************************************
+
+Types of Variables:- 
+Instance variables are those which are created with the creation of an object and stick to that object only
+Static variables are those which belongs to the class and shared among all the object of the class
+Local variables:- Those variables which are created inside a method or block are known as the local variable
+
+****************************************************************************************************************************
+Main method in java can be overloaded but the entry point is public static void main(String[] args) it will be started from
+only this method because JVM will look for it
+
+Static class must be inside another class we can not create it indepenently and we can access the static class material using
+the static class name and dot functionality.
+
+****************************************************************************************************************************
+
+
 
 
 
