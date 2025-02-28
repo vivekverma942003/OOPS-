@@ -130,6 +130,16 @@ the static class name and dot functionality.
 
 ****************************************************************************************************************************
 
+Encapsulation:- it is wrapping of data and variables into a single unit while controlling the access of variables
+it is achieved through the access modifiers which are provided to get and change the variable using certain methods and 
+variables.
+
+private only access within the class 
+protected acessible within the class and derived class
+public accessible to all the class
+
+simple h data members ko private aur protected banao taki unme change krne k liye hme bs method ka use krna padega
+direct access na hoga aur na hi direct change kr paenge.
 
 
 
