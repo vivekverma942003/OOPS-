@@ -1,0 +1,112 @@
+Access Modifiers are those which defined the accessiblity of the methods, variable and properties in OOPS
+Public same class different or derived clas
+Private within the same class only 
+Derived class within the same class and inherited class.
+
+/******************************************************************************
+public class Main {
+    private static void Private(){
+        System.out.print("This can be only access in Main class");
+    }
+public static void main(String[] args) {
+		System.out.println("Hello World");
+		Private();
+		System.out.println();
+		pillar one= new pillar();
+		one.print();
+		System.out.println();
+		one.print1();
+		one.print2();
+		
+	}
+}
+class OOPs{
+    public String name="Public method";
+    private String privateName="privateName";
+    protected String protectedName="protectedName";
+    
+}
+
+class  pillar extends OOPs{
+    public void print(){
+        System.out.print(name);
+    }
+    public void print1(){
+        System.out.print(protectedName);
+    }
+    public void print2(){
+        System.out.print(privateName);
+    }
+}
+
+
+*****************************************************************************************************************************
+What are manipulators in java explain?
+Manipulators in OOP are functions or methods that directly modify or operate on the state or behavior of an object. 
+They are responsible for altering the internal data members or properties of an object, usually through well-defined 
+interfaces (like setters or specialized methods).
+
+jaise car me speed change method speed variable ko change karega.
+
+*****************************************************************************************************************************
+What is Constructor ?
+It has no return type because its purpose is to initialize the variables of the object
+it should have the same name as the name of the class.
+It can not be marked as static because static methods belongs to the class not to the object and whenever we have to create an
+instance of the class then it must be run 
+A constructor can not be abstract because there is no implementation of the abstract methods and without implementation we can
+not intialize the variables of the class.
+
+******************************************************************************************************************************
+Abstraction:
+abstract classes can not be instantiated because the methods in it may be incomplete and their implementation is not written 
+in it so to create a instance of the abstract class is useless.
+
+Jitne bhi astract methods hum abstract class me define karenge wo sare methods k implementation subclass me define karna 
+jaruri hota h nhi to compilation error dega.
+
+Abstract methods ko subclass me implement krte time @Override likhna jaruri nhi h but @Overide likhna sahi tarika hota 
+jis se code readability badh jati h 
+
+abstract class should always be public because its object can not be created and it should be inherited by the other classes
+
+****************************************************************************************************************************
+Constructors can not be inherited from one class to another class because they are meant to be intialise the varibles of 
+a particular class not any other class.
+
+****************************************************************************************************************************
+
+COMPOSITION:-
+When an class creates objects of other classes to inherit the property without using ht extends keyword then it is known as 
+composition and it is not tightly coupled relationship.
+It is a type of has a relationship which comes under the association. 
+
+Associtiation has two types Composition and Aggregation 
+Composition shares strong bonding in which both are totally dependent on the others 
+Aggregation shares weak bonding in which both are not totally dependent on each others
+
+
+****************************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
